@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class S_StartMenu : MonoBehaviour
 {
-    Button startButton;
+    [SerializeField] Button startButton;
 
 
 	private void Start()
@@ -16,7 +16,7 @@ public class S_StartMenu : MonoBehaviour
 
 	void PressStart()
 	{
-		SceneManager.LoadScene(sceneBuildIndex: 2);
+		SceneManager.LoadScene(sceneBuildIndex: 1);
 	}
 
 
